@@ -1,0 +1,142 @@
+.banner{
+    width: 100%;
+    text-align: center;
+    background-image: url("../img/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-img{
+    width: 100%;
+    text-align: center;
+}
+
+.banner-img-container{
+    padding-top: 7.2em;
+    padding-bottom: 2.7em;
+    max-width: 125px;
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.description-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.description-title{
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--color-title);
+}
+
+.description-p{
+    color: var(--color-text);
+    padding: 0 8%;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding-bottom: 4em;
+}
+
+.button-green{
+    background-color: var(--background-color-button-green);
+    border: none;
+    height: auto;
+    width: 230px;
+    border-radius: 29px;
+    padding: 0.8em 0;
+    border-bottom: 3px solid #2d9783;
+    text-decoration: none;
+}
+
+.button-text{
+    font-size: 20px;
+    align-items: center;
+    color: var(--background-color);
+}
+
+.button-blue{
+    background-color: var(--background-color-button-blue);
+    border: none;
+    height: auto;
+    width: 230px;
+    border-radius: 29px;
+    padding: 0.8em 0;
+    border-bottom: 3px solid #5864c2;
+    text-decoration: none;
+}
+
+.button-green:hover{
+    background-color: #5dccbb;
+}
+
+.button-blue:hover{
+    background-color: #8796ff;
+}
+
+.banner-section-download{
+    padding-top: 8em;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4.5em;
+}
+
+.title-download{
+    font-size: 35px;
+}
+
+.p-download{
+    padding: 0 4%;
+}
+
+@media screen and (max-width: 1239px){
+    .banner{
+        background-image: url("../img/bg-header-mobile.png");
+    }
+    .button{
+        flex-direction: column;
+        align-items: center;
+    }
+    .button-green,
+    .button-blue{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1239px){
+    .banner{
+        background-image: url("../img/bg-header-mobile.png");
+    }
+    .button{
+        flex-direction: column;
+        align-items: center;
+    }
+    .button-green,
+    .button-blue{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .button-green,
+    .button-blue{
+        width: 80%;
+    }
+    .banner{
+        overflow-y: none
+        ;
+    }
+}

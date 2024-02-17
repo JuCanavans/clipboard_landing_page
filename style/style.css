@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+/*Importando o css das de cada secao*/
+@import url("./banner.css");
+@import url("./header.css");
+@import url("./banner-computer.css");
+@import url("./banner-tablet.css");
+@import url("./banner-worflow.css");
+@import url("./banner-company.css");
+@import url("./footer.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --background-color: #ffffff;
+    --background-color-button-green: #27baa5;
+    --background-color-button-blue: #6074ff;
+    --background-color-footer: #f5f6f8;
+    --color-title: #4c5359;
+    --color-text: #bbc2c2;
+    --font-primary: "Bai Jamjuree", sans-serif;
+}
+
+body{
+    font-size: 18px;
+    font-family: var(--font-primary);
+    background-color: #fafafa;
+}
